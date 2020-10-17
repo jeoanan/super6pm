@@ -19,7 +19,7 @@ echo ("Buenas noches ". $nombre3. "<br/>"); */
 $nombre="Juan";
 
 function saludar($nombres){
-    return ("Buenas noches ".$nombre ."<br>"
+    return ("Buenas noches ".$nombres ."<br>"
 );
 }
 
@@ -31,14 +31,20 @@ echo (saludar("Sara"));
 function sumar($nro1, $nro2){
     $suma = $nro1 + $nro2;
 
-    return suma;
+    return $suma;
 }
 
 $sumados = sumar(1,2);
 
 $multiplicacion = $sumados * 2;
 
-echo $multiplicacion;
+echo ("la suma de 2 numeros es igual a ".$sumados." y si se multiplican por 2 es de ". $multiplicacion. "<br/>");
+
+$sumados = sumar(2,4);
+
+$multiplicacion = $sumados * 2;
+
+echo ("la suma de 2 numeros es igual a ".$sumados." y si se multiplican por 2 es de ". $multiplicacion. "<br/>");
 
 ?>
 </body>
