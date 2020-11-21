@@ -1,7 +1,14 @@
-<?php
+<?php 
 
-if(isset($_POST["boton"])) {
+if(isset($_POST["boton"])){
 
-    print_r($_POST);
+print_r($_POST);
+
+
 }
 
+
+
+
+
+?>

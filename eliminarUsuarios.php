@@ -1,22 +1,19 @@
 <?php
 
-include("BaseDatos.php");
+    include("BaseDatos.php");
 
-//0. recibir el id
-$id = $_GET["id"];
-
-//1. crear un objeto de la clase baseDatos
+    //0 Recibir el id del registro a eliminar
+    $id=$_GET["id"];
+    
+    //1.Crear un objeto de la clase BaseDatos
     $transaccion=new BaseDatos();
 
-//2. Consulta SQL para eliminar registros
+    //2.Consulta SQL para eliminar registros
     $consultaSQL="DELETE FROM usuarios WHERE idUsuario='$id'";
 
-//3.Utilizar el metodo eliminarDatos
+    //3. Utilizar el metodo eliminarDatos
     $transaccion->eliminarDatos($consultaSQL);
     
-
-
-
 
 
 

@@ -50,23 +50,8 @@
 
                     <?php if(isset($_POST["botonCalcular"])): ?>
                        
-                    
+                        <h1>Estas haciendo clic</h1>
                        
-                        <h4 class="display-1">
-                            <?php
-                              $precioProducto1=$_POST["precio1"];
-                              $nombreProducto1=$_POST["producto1"];
-
-                              
-  
-                              $costoEnvio=5000;
-  
-                              $total=$precioProducto1+$costoEnvio;
-                             
-                              echo("El total de su compra es de: ".$total);
-                            ?>
-                        </h4>
-                    
                     <?php endif ?>
                     
 
