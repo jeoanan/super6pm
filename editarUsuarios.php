@@ -22,8 +22,7 @@
 
         //6.REDIRECCION
         header("location:listaUsuarios.php");
-
-
+        
     }
 
 

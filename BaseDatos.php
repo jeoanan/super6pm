@@ -111,24 +111,6 @@ public function editarDatos($consultaSQL){
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
 
 ?>
